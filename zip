@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professionelle AI-gestützte Landingpage-Optimierung von MVolutionary – für höhere Conversion und messbare Ergebnisse." />
+  <title>MVolutionary – AI Landingpage Optimierung</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .burger {
+      display: none;
+      font-size: 2rem;
+      color: gold;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 2rem;
+      border-bottom: 1px solid #222;
+    }
+
+    h2 {
+      color: gold;
+      margin-bottom: 1rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: gold;
+      color: #000;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #aaa;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background: #000;
+        padding: 1rem;
+        width: 100%;
+      }
+
+      .burger {
+        display: block;
+      }
+
+      nav ul.show {
+        display: flex;
+      }
+    }
+  </style>
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="MVolutionary Logo" />
+      <h1>MVolutionary</h1>
+    </div>
+    <nav>
+      <div class="burger" onclick="toggleMenu()">☰</div>
+      <ul id="menu">
+        <li><a href="#start">Start</a></li>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#preise">Preise</a></li>
+        <li><a href="#ablauf">Zusammenarbeit</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#impressum">Impressum</a></li>
+        <li><a href="#datenschutz">Datenschutz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="start">
+    <h2>Willkommen bei MVolutionary</h2>
+    <p>
+      Ihr wollt eine bessere Landingpage? Dann meldet euch bei uns! Wir sind spezialisiert auf AI-gestützte Optimierungen von Webseiten mit dem Ziel, messbare Conversions zu generieren. Unsere Mission ist klar: Wir verwandeln eure bestehende Landingpage in ein kraftvolles Werkzeug für Kundengewinnung. 
+      Mit intelligenten Analysen, psychologisch optimierten Texten und datengetriebenen Designentscheidungen machen wir aus Besuchern Kunden. Wir wissen, dass jede Zielgruppe anders ist – deshalb ist unser Ansatz individuell, zielgerichtet und hochpräzise. 
+      MVolutionary steht für Transformation, Innovation und Performance. Wenn ihr bereit seid, den nächsten digitalen Schritt zu gehen – seid ihr bei uns genau richtig.
+    </p>
+    <img src="landingpage.png" alt="Landingpage Beispiel" />
+  </section>
+
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>
+      MVolutionary ist ein Zusammenschluss von digitalen Strategen, Textern, Designern und KI-Experten. Gemeinsam entwickeln wir maßgeschneiderte Konzepte zur Optimierung von Online-Präsenzen – insbesondere von Landingpages, die verkaufen sollen. 
+      Unsere Arbeit basiert auf fundierter Analyse und kreativer Exzellenz. Wir beobachten Marktverhalten, Nutzerentscheidungen und psychologische Trigger – und bauen daraus eine Landingpage, die nicht nur gut aussieht, sondern auch funktioniert. 
+      Seit unserer Gründung begleiten wir Unternehmen jeder Größe bei der digitalen Transformation und schaffen Ergebnisse, die nachhaltig beeindrucken. Denn für uns ist digitale Optimierung nicht nur Technik – sondern auch Vertrauen, Strategie und Menschlichkeit.
+    </p>
+    <img src="team.png" alt="Unser Team" />
+  </section>
+
+  <section id="preise">
+    <h2>Preise</h2>
+    <p>
+      Transparenz steht bei uns an erster Stelle. Unsere Preisstruktur orientiert sich an Umfang, Zielsetzung und Komplexität des jeweiligen Projekts. Folgende Pakete bieten wir an:
+      <br><br>
+      <strong>Basic – 1.500 €:</strong> Ideal für kleine Projekte. Inklusive Textüberarbeitung, Performance-Check und Layout-Vorschlägen.  
+      <br>
+      <strong>Pro – 2.900 €:</strong> Für ambitionierte Projekte mit Bedarf an Neu-Design, Conversion-Strategie und A/B-Testing.  
+      <br>
+      <strong>Premium – 4.500 €:</strong> Das Komplettpaket mit umfassender Analyse, KI-generierten Texten, responsivem High-End-Design, Echtzeit-Tracking & Optimierungs-Zyklus.
+      <br><br>
+      Jedes Projekt wird auf Wunsch erweitert – z. B. mit SEO, Speed-Optimierung oder Performance-Coaching.
+    </p>
+    <img src="pricing.png" alt="Preisliste" />
+  </section>
+
+  <section id="ablauf">
+    <h2>So läuft die Zusammenarbeit ab</h2>
+    <p>
+      Unser Prozess beginnt mit einem kostenfreien Erstgespräch, in dem wir eure Ziele und bisherigen Ergebnisse besprechen. Anschließend analysieren wir eure bestehende Seite und entwickeln konkrete Optimierungsvorschläge. 
+      Nach Freigabe beginnen wir mit der Umsetzung – Texte, Design, technische Anpassungen, Conversion-Elemente. Je nach Paket arbeiten wir mit Heatmaps, KI-Analysen, Funnel-Strukturen oder Retargeting-Optionen. 
+      Am Ende steht eine performante Landingpage, die nicht nur gut aussieht, sondern messbar verkauft. Ihr erhaltet alle Ergebnisse, Daten und Zugänge, um die Performance selbst zu kontrollieren – oder ihr bucht uns für kontinuierliche Betreuung.
+    </p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontaktformular</h2>
+    <form action="mailto:mvolutionary@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <section id="impressum">
+    <h2>Impressum</h2>
+    <p>
+      Anbieter: MVolutionary<br>
+      Inhaber: Max Mustermann<br>
+      Adresse: Musterstraße 1, 12345 Musterstadt<br>
+      E-Mail: mvolutionary@gmail.com<br>
+      Telefon: +49 176 43215777<br>
+      USt-ID: DE123456789<br>
+      Verantwortlich für den Inhalt: Max Mustermann
+    </p>
+  </section>
+
+  <section id="datenschutz">
+    <h2>Datenschutzerklärung</h2>
+    <p>
+      Der Schutz Ihrer Daten ist uns ein besonderes Anliegen. Wir erheben, verarbeiten und nutzen Ihre personenbezogenen Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen. Diese Datenschutzerklärung informiert Sie über Art, Umfang und Zweck der Datenverarbeitung auf unserer Website. 
+      Ihre Daten werden weder verkauft noch ohne Ihre Einwilligung an Dritte weitergegeben. Wir speichern Ihre Daten nur so lange, wie es für den jeweiligen Zweck notwendig ist. Selbstverständlich haben Sie jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Sperrung Ihrer gespeicherten Daten.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MVolutionary – Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
